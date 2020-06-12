@@ -1,0 +1,45 @@
+TO DO LIST::
+=============
+Word segmentation - segmenting text into words (morphemes)
+Part-of-speech tagging - assign word-categories (nouns, verbs, particles, adjectives, etc.)
+Lemmatization - get dictionary forms for inflected verbs and adjectives
+
+
+
+
+1. Remove public constructor of TString and find alternate ways of getting TString.
+2. Write unit tests for each method of lang classes.
+3. Develop JSON writer for creating JSON input data.
+4. Develop MongoLoader.java
+5. Add a TString Transliterate object or function.
+
+
+
+
+
+
+
+
+
+
+TODO LIST before Release 0.1
+-------------------------------
+
+1. Re-check hashCode() implementation in TamilString.java
+
+2. MySorter.java
+	String length shows codepoint count of o1 and o2;
+	TamilString and TamilCharacter must be used for comparison to drive the for loop
+
+3. /**
+ * @TODO: TCUtils.java
+ * Add getTamilDigitName()
+ * Add getTamilNumericName
+ * Add getTamilSymbolName()
+ * Add isAytham()
+ *
+ */
+
+4. TamilString.java
+	Add a method :: int indexOf (String s):
+	Returns the index within the string of the first occurrence of the specified string.
